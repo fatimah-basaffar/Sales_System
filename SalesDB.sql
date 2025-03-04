@@ -3,8 +3,8 @@ CREATE TABLE users (
     first_name VARCHAR(50) NOT NULL,
     middle_name VARCHAR(50),
     last_name VARCHAR(50) NOT NULL,
-    mobile VARCHAR(15) UNIQUE,
-    email VARCHAR(100) UNIQUE NOT NULL,
+    mobile VARCHAR(15) UNIQUE,  
+	email VARCHAR(100) UNIQUE NOT NULL,
     password_hash TEXT NOT NULL,
     is_admin BOOLEAN DEFAULT FALSE,
     is_vendor BOOLEAN DEFAULT FALSE,
@@ -13,6 +13,7 @@ CREATE TABLE users (
     intro TEXT,
     profile TEXT
 );
+
 
 CREATE TABLE address (
     address_id SERIAL PRIMARY KEY,

@@ -1,5 +1,9 @@
 CREATE EXTENSION IF NOT EXISTS pgcrypto;
-INSERT INTO users (first_name, middle_name, last_name, mobile, email, password_hash, is_admin, is_vendor, registered_at, last_login, intro, profile) VALUES 
+
+INSERT INTO users (
+    first_name, middle_name, last_name, mobile, email, password_hash, 
+    is_admin, is_vendor, registered_at, last_login, intro, profile
+) VALUES 
     ('Sumayyah', 'Abdulmoeen', 'Albarakati', '555-123-4567', 'sumayyah.albarakati@gmail.com', crypt('UserPassword123', gen_salt('bf')), TRUE, FALSE, '2023-10-26', '2023-10-27', 'Welcome to my profile!', 'Interested in technology.'),
     ('Abdullah', 'Mohammed', 'Al Saud', '555-987-6543', 'abdullah.alsaud@hotmail.com', crypt('Craftsman2023', gen_salt('bf')), FALSE, TRUE, '2023-10-25', '2023-10-27', 'I sell handmade crafts.', 'Love crafting.'),
     ('Noura', 'Khaled', 'Aldossary', '555-567-8901', 'noura.aldossary@outlook.com', crypt('LeaderPass789', gen_salt('bf')), TRUE, TRUE, '2023-10-24', '2023-10-26', 'I manage a team.', 'Experienced leader.'),
@@ -9,7 +13,7 @@ INSERT INTO users (first_name, middle_name, last_name, mobile, email, password_h
     ('Aisha', 'Omar', 'Alzahran', '555-223-3445', 'aisha.alzahran@gmail.com', crypt('Consultant123', gen_salt('bf')), TRUE, FALSE, '2023-10-20', '2023-10-22', 'I am a consultant.', 'Business strategist.'),
     ('Khalid', 'Fahad', 'Alotaibi', '555-889-9001', 'khalid.alotaibi@hotmail.com', crypt('WriterPass987', gen_salt('bf')), FALSE, FALSE, '2020-10-19', '2023-10-21', 'I am a writer.', 'Creative writer.'),
     ('Nasser', 'Turki', 'Alrashidi', '555-334-4556', 'nasser.alrashidi@outlook.com', crypt('Entrepreneur99', gen_salt('bf')), TRUE, TRUE, '2023-10-18', '2023-10-20', 'I am an entrepreneur.', 'Tech startup founder.'),
-	('Amal', 'Salem', 'Alshammari', '555-667-7889', 'amal.alshammari@gmail.com', crypt('Designer1234', gen_salt('bf')), FALSE, FALSE, '2023-10-17', '2023-10-19', 'I am a designer.', 'Graphic designer.');
+    ('Amal', 'Salem', 'Alshammari', '555-667-7889', 'amal.alshammari@gmail.com', crypt('Designer1234', gen_salt('bf')), FALSE, FALSE, '2023-10-17', '2023-10-19', 'I am a designer.', 'Graphic designer.');
 
 SELECT * FROM users;
 
