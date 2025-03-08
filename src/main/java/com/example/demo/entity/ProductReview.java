@@ -1,8 +1,7 @@
-package com.example.sales.entity;
+package com.example.demo.entity;
 
 import java.util.Date;
 import java.util.Objects;
-
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;

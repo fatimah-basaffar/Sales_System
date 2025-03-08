@@ -1,0 +1,20 @@
+2025-03-08 22:58:49 [INFO] c.e.demo.SalesSystemApplication - Starting SalesSystemApplication using Java 17.0.12 with PID 13092 (C:\Users\fatma\Rawafeed\Sales_System\target\classes started by fatma in C:\Users\fatma\Rawafeed\Sales_System)
+2025-03-08 22:58:49 [DEBUG] c.e.demo.SalesSystemApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-08 22:58:49 [INFO] c.e.demo.SalesSystemApplication - No active profile set, falling back to 1 default profile: "default"
+2025-03-08 23:08:29 [INFO] c.e.demo.SalesSystemApplication - Starting SalesSystemApplication using Java 17.0.12 with PID 14500 (C:\Users\fatma\Rawafeed\Sales_System\target\classes started by fatma in C:\Users\fatma\Rawafeed\Sales_System)
+2025-03-08 23:08:29 [DEBUG] c.e.demo.SalesSystemApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-08 23:08:29 [INFO] c.e.demo.SalesSystemApplication - No active profile set, falling back to 1 default profile: "default"
+2025-03-08 23:13:45 [INFO] c.e.demo.SalesSystemApplication - Starting SalesSystemApplication using Java 17.0.12 with PID 6992 (C:\Users\fatma\Rawafeed\Sales_System\target\classes started by fatma in C:\Users\fatma\Rawafeed\Sales_System)
+2025-03-08 23:13:45 [DEBUG] c.e.demo.SalesSystemApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-08 23:13:45 [INFO] c.e.demo.SalesSystemApplication - No active profile set, falling back to 1 default profile: "default"
+2025-03-08 23:14:06 [INFO] c.e.demo.SalesSystemApplication - Starting SalesSystemApplication using Java 17.0.12 with PID 24176 (C:\Users\fatma\Rawafeed\Sales_System\target\classes started by fatma in C:\Users\fatma\Rawafeed\Sales_System)
+2025-03-08 23:14:06 [DEBUG] c.e.demo.SalesSystemApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-08 23:14:06 [INFO] c.e.demo.SalesSystemApplication - No active profile set, falling back to 1 default profile: "default"
+2025-03-08 23:16:54 [INFO] c.e.demo.SalesSystemApplication - Starting SalesSystemApplication using Java 17.0.12 with PID 9580 (C:\Users\fatma\Rawafeed\Sales_System\target\classes started by fatma in C:\Users\fatma\Rawafeed\Sales_System)
+2025-03-08 23:16:54 [DEBUG] c.e.demo.SalesSystemApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-08 23:16:54 [INFO] c.e.demo.SalesSystemApplication - No active profile set, falling back to 1 default profile: "default"
+2025-03-08 23:16:57 [INFO] c.e.demo.SalesSystemApplication - Started SalesSystemApplication in 2.876 seconds (process running for 3.201)
+2025-03-08 23:20:51 [INFO] c.e.demo.SalesSystemApplication - Starting SalesSystemApplication using Java 17.0.12 with PID 9580 (C:\Users\fatma\Rawafeed\Sales_System\target\classes started by fatma in C:\Users\fatma\Rawafeed\Sales_System)
+2025-03-08 23:20:51 [DEBUG] c.e.demo.SalesSystemApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-08 23:20:51 [INFO] c.e.demo.SalesSystemApplication - No active profile set, falling back to 1 default profile: "default"
+2025-03-08 23:20:53 [INFO] c.e.demo.SalesSystemApplication - Started SalesSystemApplication in 2.023 seconds (process running for 239.582)

@@ -1,11 +1,8 @@
-package com.example.sales.service;
+package com.example.demo.service;
 
 import java.util.List;
-
-import com.example.sales.entity.ProductCategory;
-import com.example.sales.entity.ProductCategoryEmbeddable;
-
-
+import com.example.demo.entity.ProductCategory;
+import com.example.demo.entity.ProductCategoryEmbeddable;
 
 public interface ProductCategoryService {
 	List<ProductCategory> findAll();

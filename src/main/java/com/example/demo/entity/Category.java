@@ -1,14 +1,10 @@
-package com.example.sales.entity;
+package com.example.demo.entity;
 
-import java.util.Date;
 import java.util.Objects;
-
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
-import jakarta.persistence.Temporal;
-import jakarta.persistence.TemporalType;
 
 @Entity
 @Table(name = "category")

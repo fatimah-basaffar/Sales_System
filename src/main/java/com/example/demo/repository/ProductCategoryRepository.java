@@ -1,12 +1,9 @@
-package com.example.sales.repository;
+package com.example.demo.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
-
-import com.example.sales.entity.Category;
-import com.example.sales.entity.OrderItem;
-import com.example.sales.entity.ProductCategory;
-import com.example.sales.entity.ProductCategoryEmbeddable;
+import com.example.demo.entity.ProductCategory;
+import com.example.demo.entity.ProductCategoryEmbeddable;
 
 @Repository
 public interface ProductCategoryRepository extends JpaRepository<ProductCategory,ProductCategoryEmbeddable>{

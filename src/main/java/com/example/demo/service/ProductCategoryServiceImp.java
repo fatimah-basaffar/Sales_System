@@ -1,14 +1,11 @@
-package com.example.sales.service;
+package com.example.demo.service;
 
 import java.util.List;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
-import com.example.sales.entity.ProductCategory;
-import com.example.sales.entity.ProductCategoryEmbeddable;
-import com.example.sales.repository.ProductCategoryRepository;
-
+import com.example.demo.entity.ProductCategory;
+import com.example.demo.entity.ProductCategoryEmbeddable;
+import com.example.demo.repository.ProductCategoryRepository;
 
 @Service
 public class ProductCategoryServiceImp implements ProductCategoryService{

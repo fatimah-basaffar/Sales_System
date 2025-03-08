@@ -1,13 +1,12 @@
-package com.example.sales.controller;
+package com.example.demo.controller;
 
-import com.example.sales.entity.ProductCategory;
-import com.example.sales.entity.ProductCategoryEmbeddable;
-import com.example.sales.service.ProductCategoryService;
-
+import com.example.demo.entity.ProductCategory;
+import com.example.demo.entity.ProductCategoryEmbeddable;
+import com.example.demo.service.ProductCategoryService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-
 import java.util.List;
+
 @RestController
 @RequestMapping("/product_category")
 public class ProductCategoryController {

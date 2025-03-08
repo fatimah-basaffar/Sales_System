@@ -1,11 +1,9 @@
-package com.example.sales.entity;
-import java.util.Objects;
+package com.example.demo.entity;
 
-import jakarta.persistence.Column;
-import jakarta.persistence.Embeddable;
+import java.util.Objects;
+import jakarta.persistence.*;
 import jakarta.persistence.EmbeddedId;
 import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
 import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToOne;
 import jakarta.persistence.Table;
@@ -17,13 +15,15 @@ public class ProductCategory {
 	@EmbeddedId
 	private ProductCategoryEmbeddable ProCategoryId;
 	
-	@ManyToOne  // many product category to one category
+	@ManyToOne // many product category to one category
+    @MapsId("categoryId")
     @JoinColumn(name = "category_id")
-	private Category category;
+    private Category category;
 
-	@ManyToOne  // many product category to one product
+    @ManyToOne // many product category to one product
+    @MapsId("productId")
     @JoinColumn(name = "product_id")
-	 private Product product;
+    private Product product;
 
 	public ProductCategory() {
 		super();
